@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "90DD19AB-4CB9-4EE9-A507-6AC826A97971"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC5ADDD2-9E10-4A87-BC68-45BBFB778049"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExpenseApp/Controller/AuthViewController/AuthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "login(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CC5ADDD2-9E10-4A87-BC68-45BBFB778049 - ba2b2003597beab4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExpenseApp.AuthViewController.login(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "ExpenseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsupport/Amada/ExpenseApp/ExpenseApp/Controller/AuthViewController/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "292"
+                  endingLineNumber = "292"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "CC5ADDD2-9E10-4A87-BC68-45BBFB778049 - 1438b9f9231a64e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExpenseApp.SessionModel&gt;, __C.NSError) -&gt; () in ExpenseApp.AuthViewController.login(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "ExpenseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsupport/Amada/ExpenseApp/ExpenseApp/Controller/AuthViewController/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "293"
+                  endingLineNumber = "293"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

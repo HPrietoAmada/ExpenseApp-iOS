@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AAI_TABLE_COLUMN_REF_CORE" representedClassName="AAI_TABLE_COLUMN_REF_CORE" syncable="YES" codeGenerationType="class">
+        <attribute name="active_status" optional="YES" attributeType="String"/>
+        <attribute name="attribute1" optional="YES" attributeType="String"/>
+        <attribute name="attribute2" optional="YES" attributeType="String"/>
+        <attribute name="attribute3" optional="YES" attributeType="String"/>
+        <attribute name="changed_by" optional="YES" attributeType="String"/>
+        <attribute name="changed_date" optional="YES" attributeType="String"/>
+        <attribute name="co_code" optional="YES" attributeType="String"/>
+        <attribute name="column_name" optional="YES" attributeType="String"/>
+        <attribute name="column_value" optional="YES" attributeType="String"/>
+        <attribute name="comments" optional="YES" attributeType="String"/>
+        <attribute name="comments2" optional="YES" attributeType="String"/>
+        <attribute name="created_by" optional="YES" attributeType="String"/>
+        <attribute name="created_date" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="french_description" optional="YES" attributeType="String"/>
+        <attribute name="sort_order" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="source" optional="YES" attributeType="String"/>
+        <attribute name="spanish_description" optional="YES" attributeType="String"/>
+        <attribute name="table_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EXP_DTL_CORE" representedClassName="EXP_DTL_CORE" syncable="YES" codeGenerationType="class">
+        <attribute name="beg_lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="beg_loc_addr1" optional="YES" attributeType="String"/>
+        <attribute name="beg_loc_addr2" optional="YES" attributeType="String"/>
+        <attribute name="beg_loc_city" optional="YES" attributeType="String"/>
+        <attribute name="beg_loc_country" optional="YES" attributeType="String"/>
+        <attribute name="beg_loc_name" optional="YES" attributeType="String"/>
+        <attribute name="beg_loc_state" optional="YES" attributeType="String"/>
+        <attribute name="beg_loc_zip" optional="YES" attributeType="String"/>
+        <attribute name="beg_lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="changed_by" optional="YES" attributeType="String"/>
+        <attribute name="changed_date" optional="YES" attributeType="String"/>
+        <attribute name="created_by" optional="YES" attributeType="String"/>
+        <attribute name="created_date" optional="YES" attributeType="String"/>
+        <attribute name="currency" optional="YES" attributeType="String"/>
+        <attribute name="end_lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="end_loc_addr1" optional="YES" attributeType="String"/>
+        <attribute name="end_loc_addr2" optional="YES" attributeType="String"/>
+        <attribute name="end_loc_city" optional="YES" attributeType="String"/>
+        <attribute name="end_loc_country" optional="YES" attributeType="String"/>
+        <attribute name="end_loc_name" optional="YES" attributeType="String"/>
+        <attribute name="end_loc_state" optional="YES" attributeType="String"/>
+        <attribute name="end_loc_zip" optional="YES" attributeType="String"/>
+        <attribute name="end_lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="exc_rate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="exp_beg_date" optional="YES" attributeType="String"/>
+        <attribute name="exp_desc" optional="YES" attributeType="String"/>
+        <attribute name="exp_end_date" optional="YES" attributeType="String"/>
+        <attribute name="exp_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="exp_line" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="exp_type" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="gl_account" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meal_location" optional="YES" attributeType="String"/>
+        <attribute name="meal_type" optional="YES" attributeType="String"/>
+        <attribute name="mileage_rate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="net_amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="odo_from" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="odo_to" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="odo_uom" optional="YES" attributeType="String"/>
+        <attribute name="per_diem_flag" optional="YES" attributeType="String"/>
+        <attribute name="round_trip_flag" optional="YES" attributeType="String"/>
+        <attribute name="tips_amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="total_amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="EXP_DTL_GUESTS_CORE" representedClassName="EXP_DTL_GUESTS_CORE" syncable="YES" codeGenerationType="class">
+        <attribute name="changedBy" optional="YES" attributeType="String"/>
+        <attribute name="changedDate" optional="YES" attributeType="String"/>
+        <attribute name="createdBy" optional="YES" attributeType="String"/>
+        <attribute name="createdDate" optional="YES" attributeType="String"/>
+        <attribute name="expDtlId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="guestName" optional="YES" attributeType="String"/>
+        <attribute name="guestUserId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="EXP_FILES_CORE" representedClassName="EXP_FILES_CORE" syncable="YES" codeGenerationType="class">
+        <attribute name="changedBy" optional="YES" attributeType="String"/>
+        <attribute name="changedDate" optional="YES" attributeType="String"/>
+        <attribute name="createdBy" optional="YES" attributeType="String"/>
+        <attribute name="createdDate" optional="YES" attributeType="String"/>
+        <attribute name="expDtlId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fileBytes" optional="YES" attributeType="Binary"/>
+        <attribute name="fileName" optional="YES" attributeType="String"/>
+        <attribute name="fileSize" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EXP_HDR_CORE" representedClassName="EXP_HDR_CORE" syncable="YES" codeGenerationType="class">
+        <attribute name="acc_approved_by" optional="YES" attributeType="String"/>
+        <attribute name="acc_approved_date" optional="YES" attributeType="String"/>
+        <attribute name="acc_rejected_by" optional="YES" attributeType="String"/>
+        <attribute name="acc_rejected_date" optional="YES" attributeType="String"/>
+        <attribute name="acc_rejected_reason" optional="YES" attributeType="String"/>
+        <attribute name="awa_number" optional="YES" attributeType="String"/>
+        <attribute name="beg_date" optional="YES" attributeType="String"/>
+        <attribute name="cash_advanced" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cash_on_hand" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="changed_by" optional="YES" attributeType="String"/>
+        <attribute name="changed_date" optional="YES" attributeType="String"/>
+        <attribute name="co_code" optional="YES" attributeType="String"/>
+        <attribute name="cost_center" optional="YES" attributeType="String"/>
+        <attribute name="created_by" optional="YES" attributeType="String"/>
+        <attribute name="created_date" optional="YES" attributeType="String"/>
+        <attribute name="emp_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="emp_vendor_num" optional="YES" attributeType="String"/>
+        <attribute name="end_date" optional="YES" attributeType="String"/>
+        <attribute name="exp_status" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mgr_approved_by" optional="YES" attributeType="String"/>
+        <attribute name="mgr_approved_date" optional="YES" attributeType="String"/>
+        <attribute name="mgr_rejected_by" optional="YES" attributeType="String"/>
+        <attribute name="mgr_rejected_date" optional="YES" attributeType="String"/>
+        <attribute name="mgr_rejected_reason" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="pr_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="profit_center" optional="YES" attributeType="String"/>
+        <attribute name="purpose" optional="YES" attributeType="String"/>
+        <attribute name="requested_by" optional="YES" attributeType="String"/>
+        <attribute name="requested_date" optional="YES" attributeType="String"/>
+        <attribute name="submitted_by" optional="YES" attributeType="String"/>
+        <attribute name="submitted_date" optional="YES" attributeType="String"/>
+        <attribute name="trip_name" optional="YES" attributeType="String"/>
+        <attribute name="trip_type" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="UserCoreDataModel" representedClassName="UserCoreDataModel" syncable="YES" codeGenerationType="class">
+        <attribute name="android_id" optional="YES" attributeType="String"/>
+        <attribute name="cell" optional="YES" attributeType="String"/>
+        <attribute name="cell_provider" optional="YES" attributeType="String"/>
+        <attribute name="co_code" optional="YES" attributeType="String"/>
+        <attribute name="company_code" optional="YES" attributeType="String"/>
+        <attribute name="company_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="created_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="department_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="display_name" optional="YES" attributeType="String"/>
+        <attribute name="division_code" optional="YES" attributeType="String"/>
+        <attribute name="division_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="emp_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ext" optional="YES" attributeType="String"/>
+        <attribute name="fax" optional="YES" attributeType="String"/>
+        <attribute name="hire_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="home_address" optional="YES" attributeType="String"/>
+        <attribute name="home_city" optional="YES" attributeType="String"/>
+        <attribute name="home_dept" optional="YES" attributeType="String"/>
+        <attribute name="home_fax" optional="YES" attributeType="String"/>
+        <attribute name="home_lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="home_lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="home_phone" optional="YES" attributeType="String"/>
+        <attribute name="home_workphone" optional="YES" attributeType="String"/>
+        <attribute name="home_zip" optional="YES" attributeType="String"/>
+        <attribute name="is_deleted" optional="YES" attributeType="String"/>
+        <attribute name="language" optional="YES" attributeType="String"/>
+        <attribute name="mobile_email" optional="YES" attributeType="String"/>
+        <attribute name="name_first" optional="YES" attributeType="String"/>
+        <attribute name="name_last" optional="YES" attributeType="String"/>
+        <attribute name="office_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pager" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="password_ad" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="photo_url" optional="YES" attributeType="String"/>
+        <attribute name="plant" optional="YES" attributeType="String"/>
+        <attribute name="prefer_name_first" optional="YES" attributeType="String"/>
+        <attribute name="prefer_name_last" optional="YES" attributeType="String"/>
+        <attribute name="region_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="region_id_service" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rep_code" optional="YES" attributeType="String"/>
+        <attribute name="reports_to" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sales_num" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sap_access_grp" optional="YES" attributeType="String"/>
+        <attribute name="sbu_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="service_role" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="updated_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="updated1" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <attribute name="vendor_num" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="AAI_TABLE_COLUMN_REF_CORE" positionX="-342" positionY="36" width="128" height="330"/>
+        <element name="EXP_DTL_CORE" positionX="-324" positionY="198" width="128" height="703"/>
+        <element name="EXP_FILES_CORE" positionX="-333" positionY="189" width="128" height="208"/>
+        <element name="EXP_HDR_CORE" positionX="-333" positionY="189" width="128" height="585"/>
+        <element name="UserCoreDataModel" positionX="-333" positionY="153" width="128" height="855"/>
+        <element name="EXP_DTL_GUESTS_CORE" positionX="-333" positionY="189" width="128" height="178"/>
+    </elements>
+</model>
